@@ -1,4 +1,4 @@
-package com.example.studentmanage.config;
+package com.example.swagger3.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

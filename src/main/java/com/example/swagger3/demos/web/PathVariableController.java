@@ -16,6 +16,7 @@
 
 package com.example.swagger3.demos.web;
 
+import io.swagger.annotations.Api;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,6 +27,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
 @Controller
+@Api(tags = "接口服务", value = "/api/v1/swagger/**")
 public class PathVariableController {
 
     // http://127.0.0.1:8080/user/123/roles/222
